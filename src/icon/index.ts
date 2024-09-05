@@ -1,3 +1,7 @@
+// Theme
+export const sunIcon = require("./sun.svg").default;
+export const moonIcon = require("./moon.svg").default;
+
 // Account icons
 export const searchIcon = require("./search.svg").default;
 export const bellIcon = require("./bell.svg").default;

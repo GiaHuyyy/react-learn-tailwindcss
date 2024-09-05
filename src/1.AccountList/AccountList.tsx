@@ -36,7 +36,7 @@ function AccountList() {
 
       {/* Body */}
       <div className="mt-10">
-        <h2 className="text-[32px] font-bold text-[#0E0D46]">Account</h2>
+        <h2 className="text-[32px] font-bold">Account</h2>
         <div className="mt-5">
           {/* Item 1 */}
           <div className="duration-400 group mt-2 flex items-center justify-between rounded-3xl px-5 py-[27px] transition-all hover:bg-[#FAF2FE]">
@@ -45,13 +45,13 @@ function AccountList() {
                 <img src={dropboxIcon} alt="" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#0E0D46]">Dropbox</h3>
-                <p className="mt-1 text-base font-medium text-[#0E0D46] opacity-70">
+                <h3 className="text-2xl font-bold">Dropbox</h3>
+                <p className="mt-1 text-base font-medium opacity-70">
                   dropbox.com
                 </p>
               </div>
             </div>
-            <p className="text-base font-medium text-[#0E0D46]">24 accounts</p>
+            <p className="text-base font-medium">24 accounts</p>
             <div className="flex h-10 w-10 cursor-pointer items-center justify-evenly rounded-[50%] bg-white">
               <span className="group h-1 w-1 rounded-[50%] bg-[#ccc] group-hover:bg-black"></span>
               <span className="h-1 w-1 rounded-[50%] bg-[#ccc] group-hover:bg-black"></span>
@@ -66,13 +66,13 @@ function AccountList() {
                 <img src={pinterestIcon} alt="" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#0E0D46]">Pinterest</h3>
-                <p className="mt-1 text-base font-medium text-[#0E0D46] opacity-70">
+                <h3 className="text-2xl font-bold">Pinterest</h3>
+                <p className="mt-1 text-base font-medium opacity-70">
                   pinterest.com
                 </p>
               </div>
             </div>
-            <p className="text-base font-medium text-[#0E0D46]">3 accounts</p>
+            <p className="text-base font-medium">3 accounts</p>
             <div className="flex h-10 w-10 cursor-pointer items-center justify-evenly rounded-[50%] bg-white">
               <span className="group h-1 w-1 rounded-[50%] bg-[#ccc] group-hover:bg-black"></span>
               <span className="h-1 w-1 rounded-[50%] bg-[#ccc] group-hover:bg-black"></span>
@@ -87,13 +87,13 @@ function AccountList() {
                 <img src={microsoftIcon} alt="" />
               </div>
               <div>
-                <h3 className="text-2xl font-bold text-[#0E0D46]">Microsoft</h3>
-                <p className="mt-1 text-base font-medium text-[#0E0D46] opacity-70">
+                <h3 className="text-2xl font-bold">Microsoft</h3>
+                <p className="mt-1 text-base font-medium opacity-70">
                   microsoft.com
                 </p>
               </div>
             </div>
-            <p className="text-base font-medium text-[#0E0D46]">19 accounts</p>
+            <p className="text-base font-medium">19 accounts</p>
             <div className="flex h-10 w-10 cursor-pointer items-center justify-evenly rounded-[50%] bg-white">
               <span className="group h-1 w-1 rounded-[50%] bg-[#ccc] group-hover:bg-black"></span>
               <span className="h-1 w-1 rounded-[50%] bg-[#ccc] group-hover:bg-black"></span>

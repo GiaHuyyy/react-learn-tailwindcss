@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --bg-color: #ebebff;
+  --text-color: #0e0d46;
+}
+
+[data-theme="dark"] {
+  --bg-color: #0e0d46;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
 body {
   @apply font-roboto;
 }
